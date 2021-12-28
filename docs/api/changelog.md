@@ -20,7 +20,7 @@ Here you can find our [Developers Roadmap](https://trello.com/b/1V10E4IB/overwol
 #### API
 
 * [overwolf.media.replays.capture()](overwolf-media-replays#capturepastduration-futureduration-capturefinishedcallback-callback) - Allow > 180 sec buffer.
-  Until now, calling capture with a `pastDuration` > 180000 ms doesn’t work. We increased the buffer from 3 min to 10 minutes. (now you can set pastDuration to 600000ms max).
+  Until now, calling capture with a `pastDuration` > 180000 ms wouldn't work. We increased the buffer from 3 min to 10 minutes. (now you can set pastDuration to 600000ms max).
 
 * Media folder acess - Until now, when the OW video folder changed, your video capture app lost access to the old files. So playing these videos in your app was not possible. We fixed it, and from now on, your app will still gain access to the old files, even if they are located outside the current OW video folder.
 
